@@ -3,24 +3,18 @@ package JavaProject1;
 public class T92ndLargest {
     public static void main(String[] args) {
         // Write a java program to find the second largest number in the array?
-        int[][] numbers = {
-                {7, 66, 13, 49, 82},
-                {62, 31, 54, 84, 91},
-                {4, 59, 98, 71, 20}
-        };
+        int[] numbers = {100, 66, 13, 49, 82};
 
-        int largest = numbers[0][0];
-        int secondLargest = numbers[0][0];
+        int largest = 0;
+        int secondLargest = 0;
 
-        for (int[] a : numbers) {
-            for (int i : a) {
-                if (i > secondLargest) {
-                    secondLargest = i;
-                }
-                if (i > largest) {
-                    secondLargest = largest;
-                    largest = i;
-                }
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > largest) {
+                secondLargest = largest;
+                largest = numbers[i];
+
+            } else if (numbers[i] > secondLargest && numbers[i] != largest) {
+                secondLargest = numbers[i];
             }
         }
         System.out.println("The second largest number is " + secondLargest);
