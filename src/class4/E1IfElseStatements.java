@@ -7,6 +7,7 @@ int age=5;
         if (age>10) {
             System.out.println(age);
         }else {
+            System.out.println(age);
         }
     }
 }
