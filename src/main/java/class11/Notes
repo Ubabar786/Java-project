@@ -1,0 +1,29 @@
+String Class:
+- String class is designed to store symbols (letters A, B, C), numbers (10, 25, 30), special characters (#, £, $) in the form of a group.
+There are many methods already written by java developers that we can just use.
+
+Example:
+length()
+startsWith()
+endsWith()
+contains()
+
+Why we should learn about this class:
+1) Very important for coding questions
+2) Most widely used class in all java
+3) Most of the information in real life is present in the form of Strings
+
+Method Chaining:
+When multiple methods are being called on the same line its called Method Chaining.
+String class supports methods changing, For method changing to work,
+previous method must return the expected datatype for the next method.
+
+Syntax:
+System.out.println(str.toLowerCase().trim().replace("great","Good"));
+
+Note:
+Very important fo coding questions;
+- If else
+- Loops
+- Arrays
+- Strings

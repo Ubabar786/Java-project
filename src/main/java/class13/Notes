@@ -1,0 +1,53 @@
+Types of variables:
+- There are three types of variables;
+local - temporary duration of time
+
+instance- Long duration of time
+
+static- permanently duration of time
+
+1) Local - are the variables which create/declare inside
+a block of code e.g. if else condition, loops, switch, methods.
+Upside:
+- They occupy the memory for shortest period of time.
+As soon as Java is done executing that block of code,
+they are removed from the memory.
+Downside:
+- They can only be accessed within the block of code,
+they are created.
+
+2) Instance - are the variables which are created outside
+the block of codes e.g. if else, switch,
+loops or methods but inside the class.
+Upside:
+- They can be accessed anywhere within that class.
+Downside:
+- They are created when an object of the class is created and
+they will stay in the memory as long as that object is in the
+memory whether you use them or not.
+
+Local vs Instance:
+- Whenever it is possible go and create local variables.
+- Only go with Instance variable, if you can't solve
+a problem with the local variable.
+
+3) Static - are created inside a class but outside of a block
+of code with a static keyword. This can't be local.
+Upside:
+- They are universal when it come to scope and accessibility.
+- We don't even need to create the object of that class in which they are created
+we can simply write the name of the class and we can access it.
+Downside:
+- Static variables occupy memory space for the longest period of time.
+- They are created even though you don't create any object of
+the class.
+
+Uses of types of local variables:
+Local - When we ae solving any problem, many times we need local variables
+to temporarily store data. In all of those cases you should be going with local
+variables.
+
+Notes:
+We will do a little bit of StringBuilder
+We will discuss Thread safety,
+StringBuilder vs StringBuffer
