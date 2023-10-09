@@ -1,0 +1,61 @@
+Polymorphism:
+- It's the ability of an object to behave differently.
+- We can achieve polymorphism in two ways;
+  method overloading and method overriding(Very common)
+
+Why should we learn about Polymorphism?
+1) It allows us to write dynamic programs, which can save us
+   lots of code repetition.
+
+Example:
+- WebDriver driver=new Chromedriver();
+
+Interview Questions:
+- Do we need Method Overriding for Polymorphism?
+Yes but we can also use Method Overloading.
+
+Abstraction:
+- Abstraction is the process of hiding implementation details
+  and showing only the functionality.
+- We can achieve using abstract classes and interfaces.
+
+Why?
+- When we use Abstraction it can simplify our codes.
+  Those classes which don't need to provide an implementation
+  to the methods can leave it.
+
+Keyword:
+- abstract.
+
+Interview Q's:
+Can we have private methods as abstract methods?
+- Private means no participation in inheritance which results
+  to no overriding which will make abstract method useless.
+Can we have a method as final and abstract at the same time?
+- Final means something is complete and can't be modified and
+abstract means something is incomplete and requires modification.
+These are opposite to each other and not allowed.
+
+Interfaces:
+- Interfaces are a collection public static final variables and
+  methods which are by default public and abstract. After Java 8
+  we can have default, static and private methods as well.
+
+Why use interfaces?
+1) There is no Diamond problem in interfaces which allow us to have
+   multiple inheritances.
+2) They are light weight, simple contracts and can be used even if the
+   classes are not related to each other.
+
+Interview Q's:
+Can we have private variables in an interface?
+- No
+Can we have private methods as abstract methods?
+- Private means no participation in inheritance which results
+  to no overriding which will make abstract method useless.
+Can we have a method as final and abstract at the same time?
+- Final means something is complete and can't be modified and
+abstract means something is incomplete and requires modification.
+These are opposite to each other and not allowed.
+
+

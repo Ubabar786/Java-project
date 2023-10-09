@@ -1,0 +1,28 @@
+Types of Errors in Java:
+- There are three main types of errors in java.
+1) Syntax errors/Compile time errors
+2) Logical errors/bugs
+3) Runtime Errors/Exceptions
+
+IDE->integrated development environment = Intellij.
+Syntax errors/Compile time errors
+- Example:
+int age=10;
+age int=10;
+
+How to solve Syntax errors/Compile Time errors?
+1) Most of the time your IDE is going to help you
+2) Compiler will also generate an error with live numbers and explanations.
+3) You can look for the rules of that language.
+
+Logical Errors/bugs:
+- Logical errors occur when programs do NOT generate the expected outputs.
+How to fix Logical/bugs types of errors?
+1) We can use the debugger to fix these types of errors.
+
+Runtime errors/Exceptions:
+- Runtime errors or exceptions are unwanted events that disrupts the normal
+  flow of a program.
+How to fix Runtime/Exception types of errors?
+
+

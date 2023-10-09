@@ -1,0 +1,16 @@
+Interview Q's:
+Q: Can we have a private constructor?
+A: Yes
+Q: Can we use Static with a constructor?
+A: No
+Q: Can i use return keyword in a constructor?
+A: Yes
+
+Why should we use Constructors?
+- Cleaner code, secure code by making it private
+
+"This" keyword:
+- We can access the instance variables with 'this' keyword
+  when there is a local variable in the same scope.
+- We can call one constructor inside another one in the same class
+  if we want to have the code from the other class.
