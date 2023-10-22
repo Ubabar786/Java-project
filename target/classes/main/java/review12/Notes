@@ -1,0 +1,24 @@
+Set:
+- Sets are special set of classes which do not allow duplicate elements.
+  Set is the main interface and there are three main classes which
+  implement this interface.
+1) HashSet
+2) LinkedHashSet
+3) TreeSet
+
+- HashSet:
+Upside - removes duplicates and its the fastest
+Downside - does not maintain insertion order
+
+- LinkedHashSet:
+Upside - Maintains the insertion order
+Downside - Its a little slower than HashSet
+
+TreeSet:
+Upside - Keeps the data in sorted form and searching through large amount of elements is very fast
+Downside - Insertion is very very slow
+
+=====================================================================================================
+
+Maps:
+- Map is an interface that allows us to store key value pairs.
